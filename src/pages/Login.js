@@ -34,7 +34,6 @@ function Login() {
           setErrorMessage(data.message);
         } else {
           setSecretKey(data.secretKey);
-          console.log(data.secretKey);
           setUsername(username);
           setIsLoggedIn(true);
           navigate("/");

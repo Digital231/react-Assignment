@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import useStore from "../store/store";
 import { Button, Form } from "react-bootstrap";
+import useStore from "../store/store";
 
 const mainUrl = "http://167.99.138.67:1111/";
 

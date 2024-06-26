@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import useStore from "../store/store.js";
 import { useNavigate } from "react-router-dom";
+import useStore from "../store/store.js";
 
 function Favorites() {
   const { favorites, setFavorites, username } = useStore();

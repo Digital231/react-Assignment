@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { Button, Form } from "react-bootstrap";
 import useStore from "../store/store";
 
 const mainUrl = "http://167.99.138.67:1111/";
@@ -82,6 +82,3 @@ function CreateNewPost() {
 }
 
 export default CreateNewPost;
-
-// /createpost
-// body keys: secretKey, title, image, description

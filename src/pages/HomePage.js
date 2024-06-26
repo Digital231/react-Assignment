@@ -64,7 +64,7 @@ function HomePage() {
         .then((data) => {
           if (data.success) {
             setPostsChanged((prev) => !prev);
-            removeFromFavorites(id); // Remove from favorites
+            removeFromFavorites(id);
           } else {
             console.log("Failed to delete post:", data.message);
           }
